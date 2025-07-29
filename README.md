@@ -13,7 +13,8 @@ to be able to share knowledge. The site is quite educational and responsive, and
 - JQUERY
 - LIB RECORD RTC
 
-- ## Visualize the project(https://luuizpaes.github.io/lp-screen-recorder/)
+- ## Visualize the project
+- (https://luuizpaes.github.io/lp-screen-recorder/)
 
 - ## Features
 - Start button to begin screen recording
