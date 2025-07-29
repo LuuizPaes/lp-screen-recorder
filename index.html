@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,20 +14,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>LP Screen Recorder</h1>
-        <button id="startRecording">Start Recording</button>
-        <button id="stopRecording">Stop Recording</button>
-        <button id="downloadRecording">Download Recording</button>
-    </div>
+    <h1>LP Screen Recorder</h1>
+    <button id="startRecording">Start Recording</button>
+    <button id="stopRecording" disabled>Stop Recording</button>
+    <button id="downloadRecording" disabled>Download Recording</button>
+    <br />
+    <video id="recordedVideo" controls></video>
 
-    <div class="box">
-        <video id="recordeVideo" controls></video>
-    </div>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="./script.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
-<script src="./script.js"></script>
 
 </html>
