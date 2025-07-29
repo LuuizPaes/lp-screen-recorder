@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("#downloadRecording").prop("disabled", true);
       })
       .catch(function (error) {
-        console.error("Erro ao acessar a tela:", error);
+        console.error("error accessing the screen:", error);
       });
   });
 
@@ -37,7 +37,7 @@ $(document).ready(function () {
 
   $("#downloadRecording").click(function () {
     if (!recordedBlob) {
-      console.error("Nenhum vídeo gravado disponível.");
+      console.error("No recorded video available.");
       return;
     }
 
